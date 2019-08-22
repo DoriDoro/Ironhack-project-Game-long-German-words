@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>German</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+
+  </head>
+  <body>
+
+    <div id="main">
+      <div class="main">
+        <div class="container-img">
+          <div class="time"> <h3>TIMER:</h3> </div>
+          <div class="time"><h3 id="secs"></h3> </div>
+          <div id="img-div"> <img src="./" alt="image"> </div>
+      </div>
+        
+        <div id="field-container" class="container-name">
+          <div class="animal-name border"> <p>German: <br /> <b id="germanName"></b></p> </div> 
+          <div class="animal-name border"> <p>English: <br/> <span id="englishName"></span></p> </div>
+        </div>
+        <div id="addText">
+          <input id="answer" class="field border" placeholder="Enter your answer here..." >
+          <div id="correctAnswer"></div>
+        </div>
+        <div>
+            <p class="list border">ä = alt + 123<br /> ö = alt + 148<br /> ü = alt + 129</p>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+  </body>
+</html>
